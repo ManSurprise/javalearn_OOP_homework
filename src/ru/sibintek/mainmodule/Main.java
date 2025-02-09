@@ -1,7 +1,10 @@
 package ru.sibintek.mainmodule;
+import ru.sibintek.squareroot.Squareroot;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Всё еще норм");
+        double b = 4;
+        double a = Squareroot.calculate(b);
+        System.out.println("Корень "+b+" = "+a);
     }
 }
